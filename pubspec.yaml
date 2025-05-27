@@ -1,0 +1,38 @@
+name: jal_dristi_fixed
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.1
+  image_cropper: ^9.1.0
+  http: ^1.3.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.4
+  file_picker: ^10.1.2
+  shared_preferences: ^2.5.3
+  loader_overlay: ^5.0.0
+  wakelock_plus: ^1.3.1
+  geolocator: ^14.0.0
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.1
+  flutter_neumorphic:  
+    git: 
+      url: https://github.com/den0206/Flutter-Neumorphic.git
+      ref: feature/remoce_accentcolor
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
